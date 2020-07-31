@@ -169,8 +169,8 @@ The following examples build a {PRODUCT} service on Quarkus in native mode using
 .Example {PRODUCT} service native build from a local source directory
 [source,subs="attributes+,+quotes"]
 ----
-$ cd ~/kogito-travel-agency/travels
-$ {PRODUCT_INIT} deploy-service travels --native
+$ cd ~/kogito-travel-agency
+$ {PRODUCT_INIT} deploy-service travels travels/ --native
 ----
 
 .Example {PRODUCT} service native build from a Git repository source directory
